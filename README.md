@@ -92,7 +92,7 @@ Select Nexus 5X API 26 emulator → click on Launch AVD(start) button
 This IDE is quite handy for managing dart code and can be easily integrated with the android emulator.
 
 Download Visual Studio Code from [here](https://code.visualstudio.com/download), Then switch to the extension tab and search for “flutter”:
-
+![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/0_I5vq797d25fPZ5nT.png)
 
 The first entry and in the search result list is the extension we’re looking for. 
 By installing this extension we’re adding support for editing, refactoring, running, 
