@@ -79,8 +79,8 @@ Preferences → Plugins → Browse Repository → type Flutter in search bar →
 ## Set up the Android emulator
 ![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/ezgif.com-video-to-gif%20(1).gif)
 
-To prepare to run and test your Flutter app on the Android emulator, follow these steps:
-![](https://miro.medium.com/max/700/1*Nz0C7NC0wR73z7KcPhUVrg.gif)
+*To prepare, run and test your **Flutter app on the Android emulator**, follow these steps:*
+
 * Tools → AVD Manager → Opens a window
 
 * Select → Create Virtual Device
@@ -91,6 +91,7 @@ To prepare to run and test your Flutter app on the Android emulator, follow thes
 
 * Select Pixel 2 API 27 emulator → click on Launch AVD(start) button
 
+![](https://miro.medium.com/max/700/1*Nz0C7NC0wR73z7KcPhUVrg.gif)
 
 ## VSCode
 
