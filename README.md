@@ -81,10 +81,15 @@ Preferences → Plugins → Browse Repository → type Flutter in search bar →
 
 To prepare to run and test your Flutter app on the Android emulator, follow these steps:
 ![](https://miro.medium.com/max/700/1*Nz0C7NC0wR73z7KcPhUVrg.gif)
-Tools → AVD Manager → Opens a window
-Select → Create Virtual Device
-Phone → [Choose Any] → Oreo x86 → Android 8.0 → AVD Name(Nexus 5X API 26) → Finish
-Select Nexus 5X API 26 emulator → click on Launch AVD(start) button
+* Tools → AVD Manager → Opens a window
+
+* Select → Create Virtual Device
+
+* Phone → [Choose Any] → [Choose System Image, typically the highest one is most preferred] → Android 8.1 → AVD Name(Pixel 2 API 27)
+
+* Choose Graphics → Hardware → Finish
+
+* Select Pixel 2 API 27 emulator → click on Launch AVD(start) button
 
 
 ## VSCode
