@@ -33,7 +33,17 @@ $ export PATH="$PATH:`pwd`/flutter/bin"
 ```
 
 This command sets your PATH variable for the current terminal window only.
+To make it permanent and run flutter commands in any terminal session follow next steps for modifying 
+this variable permanently for all terminal sessions are machine-specific. 
+Typically you add a line to a file that is executed whenever you open a new window. For example:
 
+1. Determine the directory where you placed the Flutter SDK. You need this in Step 3.
+2. Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/.bashrc. If you are using a different shell, the file path and filename will be different on your machine.
+3. Add the following line and change [PATH_TO_FLUTTER_GIT_DIRECTORY] to be the path where you cloned Flutter’s git repo:
+```
+$ export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
+```
+4. Run ```source $HOME/.<rc file>``` to refresh the current window, or open a new terminal window to automatically source the file.
 
 ## Android Setup
 
