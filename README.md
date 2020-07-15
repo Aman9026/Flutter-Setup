@@ -39,7 +39,8 @@ this variable permanently for all terminal sessions are machine-specific.
 Typically you add a line to a file that is executed whenever you open a new window. For example:
 
 1. Determine the directory where you placed the Flutter SDK. You need this in Step 3.
-2. Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/.bashrc. If you are using a different shell, the file path and filename will be different on your machine.
+2. Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/.bashrc. 
+If you are using a different shell, the file path and filename will be different on your machine.
 3. Add the following line and change [PATH_TO_FLUTTER_GIT_DIRECTORY] to be the path where you cloned Flutter’s git repo:
 ```
 $ export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
@@ -51,7 +52,7 @@ Else you can also do the same thing in /etc/profile if you have administrator pr
 ### Run the Doctor
 Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag):
 ```
-$ flutter doctor
+$ flutter doctor -v
 ```
 This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; 
 it is not necessary to install Dart separately.
@@ -65,10 +66,24 @@ Flutter relies on a full installation of Android Studio to supply its Android pl
 1.  Download and install [Android Studio](https://developer.android.com/studio#downloads).
 2.  Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
 
+### Add Dart Plugin to Android Studio
+If you prefer to use Android Studio as your main IDE to develop Flutter, you have to set dart language support to Android Studio as shown below.
+
+Preferences → Plugins → Browse Repository → type Dart in search bar → Install and Restart android studio.
+
+### Add Flutter Plugin to Android Studio
+
+Preferences → Plugins → Browse Repository → type Flutter in search bar → Install and Restart android studio.
+
 ## Set up the Android emulator
 ![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/ezgif.com-video-to-gif%20(1).gif)
 
 To prepare to run and test your Flutter app on the Android emulator, follow these steps:
+
+Tools → AVD Manager → Opens a window
+Select → Create Virtual Device
+Phone → [Choose Any] → Oreo x86 → Android 8.0 → AVD Name(Nexus 5X API 26) → Finish
+Select Nexus 5X API 26 emulator → click on Launch AVD(start) button
 
 
 ## VSCode
@@ -76,3 +91,8 @@ To prepare to run and test your Flutter app on the Android emulator, follow thes
 This IDE is quite handy for managing dart code and can be easily integrated with the android emulator.
 
 You can download Visual Studio Code from [here](https://code.visualstudio.com/download).
+
+
+The first entry and in the search result list is the extension we’re looking for. 
+By installing this extension we’re adding support for editing, refactoring, running, 
+and reloading Flutter application, as well as support for the Dart programming language.
