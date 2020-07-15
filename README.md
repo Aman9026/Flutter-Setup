@@ -3,15 +3,26 @@ Let's get started with setting up the workspace and installations.
 
 ## System Requirement
 To install and run Flutter, your development environment must meet these minimum requirements:
-**Operating Systems:** MacOS,Linux (64-bit) or Windows // We'll be working on rhel-8
-**Disk Space:** 600 MB (does not include disk space for IDE/tools).
-**Tools:** Flutter depends on these command-line tools being available in your environment like bash, curl, 
+
+* **Operating Systems:** MacOS,Linux (64-bit) or Windows // We'll be working on rhel-8
+
+* **Disk Space:** 600 MB (does not include disk space for IDE/tools).
+
+* **Tools:** Flutter depends on these command-line tools being available in your environment like bash, curl, 
 file, git 2.x, mkdir, rm, unzip, which, xz-utils, zip
-**Shared libraries:** Flutter test command depends on this library being available in your environment.
-**libGLU.so.1 -** provided by mesa packages such as libglu1-mesa on Ubuntu/Debian and mesa-libGLU on Fedora.
+
+* **Shared libraries:** Flutter test command depends on this library being available in your environment.
+
+* **libGLU.so.1 -** provided by mesa packages such as libglu1-mesa on Ubuntu/Debian and mesa-libGLU on Fedora.
 
 ## Installing Rhel-8
-You can download 
+Download rhel-8 from [here](https://drive.google.com/file/d/1nZVXCVOy41LjAyOAiHMcNgFIwUlJYw16/view).
+
+Also follow this amazing [rhel installation tutorial](https://youtu.be/JBNvnINsswo) by the founder of Linux World and RHCSA-level-22 Mr. [Vimal Daga](https://in.linkedin.com/in/vimaldaga) for technical insights while installation.
+
+## Get the Flutter SDK
+Download the following installation bundle to get the latest stable release of the Flutter SDK from [here](https://flutter.dev/docs/get-started/install/linux)
+
 
 We'll start with the installation of the Operating System 
 follow this https://youtu.be/JBNvnINsswo
