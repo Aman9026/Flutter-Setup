@@ -98,6 +98,8 @@ The first entry in the search result list is the extension we’re looking for.
 By installing this extension we’re adding support for editing, refactoring, running, 
 and reloading Flutter application, as well as support for the Dart programming language.
 
+---
+
 *Happy Fluttering!* :heartbeat:
 
 ***You are always welcome to add more or improve any resource in this repository by following [these](https://github.com/Aman9026/Flutter-Setup/blob/master/CONTRIBUTING.md) instructions.***
