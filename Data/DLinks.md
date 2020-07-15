@@ -10,4 +10,8 @@
 
 * flutter sdk https://flutter.dev/docs/get-started/install/linux
 
+---
 
+**Complete tutorial [here](https://github.com/Aman9026/Flutter-Setup/blob/master/README.md)**.
+
+Happy Fluttering! :heartbeat:
