@@ -44,6 +44,7 @@ Typically you add a line to a file that is executed whenever you open a new wind
 $ export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
 ```
 4. Run ```source $HOME/.<rc file>``` to refresh the current window, or open a new terminal window to automatically source the file.
+
 Else you can also do the same thing in /etc/profile if you have administrator privileges.
 
 ## Android Setup
