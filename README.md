@@ -1,5 +1,7 @@
 # Flutter-Setup
 
+We'll start with the installation of the Operating System 
+follow this https://youtu.be/JBNvnINsswo
 vs https://code.visualstudio.com/docs/?dv=linux64_rpm
 
 andoid studio https://developer.android.com/studio#downloads
