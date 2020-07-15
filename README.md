@@ -17,6 +17,7 @@ file, git 2.x, mkdir, rm, unzip, which, xz-utils, zip
 * **libGLU.so.1 -** provided by mesa packages such as libglu1-mesa on Ubuntu/Debian and mesa-libGLU on Fedora.
 
 ## Installing Rhel-8
+![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/RHEL_8_Desktop.png)
 Download rhel-8 from [here](https://drive.google.com/file/d/1nZVXCVOy41LjAyOAiHMcNgFIwUlJYw16/view).
 
 Also follow this amazing [rhel installation tutorial](https://youtu.be/JBNvnINsswo) by the founder of Linux World and RHCSA-level-22 Mr. [Vimal Daga](https://in.linkedin.com/in/vimaldaga) for technical insights while installation.
@@ -90,7 +91,7 @@ Select Nexus 5X API 26 emulator → click on Launch AVD(start) button
 
 This IDE is quite handy for managing dart code and can be easily integrated with the android emulator.
 
-You can download Visual Studio Code from [here](https://code.visualstudio.com/download).
+Download Visual Studio Code from [here](https://code.visualstudio.com/download), Then switch to the extension tab and search for “flutter”:
 
 
 The first entry and in the search result list is the extension we’re looking for. 
