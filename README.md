@@ -48,6 +48,17 @@ $ export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
 
 Else you can also do the same thing in /etc/profile if you have administrator privileges.
 
+### Run the Doctor
+Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag):
+```
+$ flutter doctor
+```
+This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; 
+it is not necessary to install Dart separately.
+Once you have installed any missing dependencies, run the ```$ flutter doctor``` command again to verify that you’ve set everything up correctly.
+
+Basically by using the doctor option you can check if we need to install further dependencies.
+
 ## Android Setup
 
 Flutter relies on a full installation of Android Studio to supply its Android platform dependencies like emulator. However, you can write your Flutter apps in a number of editors; a later step discusses where we'll be writing in VSCode and use the emulator of android studio.
