@@ -33,6 +33,15 @@ $ export PATH="$PATH:`pwd`/flutter/bin"
 ```
 
 This command sets your PATH variable for the current terminal window only.
+
+
+## Android Setup
+
+Flutter relies on a full installation of Android Studio to supply its Android platform dependencies like emulator. However, you can write your Flutter apps in a number of editors; a later step discusses where we'll be writing in VSCode and use the emulator of android studio.
+1.  Download and install Android Studio.
+2.  Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
+
+
 We'll start with the installation of the Operating System 
 follow this https://youtu.be/JBNvnINsswo
 vs https://code.visualstudio.com/docs/?dv=linux64_rpm
