@@ -80,7 +80,7 @@ Preferences → Plugins → Browse Repository → type Flutter in search bar →
 ![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/ezgif.com-video-to-gif%20(1).gif)
 
 To prepare to run and test your Flutter app on the Android emulator, follow these steps:
-
+![](https://miro.medium.com/max/700/1*Nz0C7NC0wR73z7KcPhUVrg.gif)
 Tools → AVD Manager → Opens a window
 Select → Create Virtual Device
 Phone → [Choose Any] → Oreo x86 → Android 8.0 → AVD Name(Nexus 5X API 26) → Finish
@@ -94,6 +94,6 @@ This IDE is quite handy for managing dart code and can be easily integrated with
 Download Visual Studio Code from [here](https://code.visualstudio.com/download), Then switch to the extension tab and search for “flutter”:
 ![](https://github.com/Aman9026/Flutter-Setup/blob/master/Data/0_I5vq797d25fPZ5nT.png)
 
-The first entry and in the search result list is the extension we’re looking for. 
+The first entry in the search result list is the extension we’re looking for. 
 By installing this extension we’re adding support for editing, refactoring, running, 
 and reloading Flutter application, as well as support for the Dart programming language.
