@@ -21,9 +21,18 @@ Download rhel-8 from [here](https://drive.google.com/file/d/1nZVXCVOy41LjAyOAiHM
 Also follow this amazing [rhel installation tutorial](https://youtu.be/JBNvnINsswo) by the founder of Linux World and RHCSA-level-22 Mr. [Vimal Daga](https://in.linkedin.com/in/vimaldaga) for technical insights while installation.
 
 ## Get the Flutter SDK
-Download the following installation bundle to get the latest stable release of the Flutter SDK from [here](https://flutter.dev/docs/get-started/install/linux)
+1.  Download the following installation bundle to get the latest stable release of the Flutter SDK from [here](https://flutter.dev/docs/get-started/install/linux)
+2.  Extract the file in the desired location, for example:
+```
+$ cd ~/development
+$ tar xf ~/Downloads/flutter_linux_1.17.5-stable.tar.xz
+```
+3.  Add the flutter tool to your path:
+```
+$ export PATH="$PATH:`pwd`/flutter/bin"
+```
 
-
+This command sets your PATH variable for the current terminal window only.
 We'll start with the installation of the Operating System 
 follow this https://youtu.be/JBNvnINsswo
 vs https://code.visualstudio.com/docs/?dv=linux64_rpm
