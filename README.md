@@ -53,13 +53,12 @@ Flutter relies on a full installation of Android Studio to supply its Android pl
 1.  Download and install [Android Studio](https://developer.android.com/studio#downloads).
 2.  Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
 
+## Set up the Android emulator
 
-We'll start with the installation of the Operating System 
-follow this https://youtu.be/JBNvnINsswo
-vs https://code.visualstudio.com/docs/?dv=linux64_rpm
+To prepare to run and test your Flutter app on the Android emulator, follow these steps:
 
-andoid studio 
 
-flutter sdk https://flutter.dev/docs/get-started/install/linux
+## VSCode
 
-rhel 8 https://drive.google.com/file/d/1nZVXCVOy41LjAyOAiHMcNgFIwUlJYw16/view
+This IDE is quite handy for managing dart code and can be easily integrated with the android emulator. 
+You can download Visual Studio Code from [here](https://code.visualstudio.com/download).
